@@ -27,7 +27,6 @@ jobs:
           api-token: ${{ secrets.LEANIX_API_TOKEN }}
           manifest-path: ${{ env.LEANIX_MANIFEST_PATH }}
           dependency-manager: ${{ env.DEPENDENCY_MANAGER }}
-          maven-user-settings-path: settings.xml
           stage: ${{ env.STAGE }}
           version: ${{ env.VERSION }}
           allow-failure: ${{ env.ALLOW_FAILURE }}

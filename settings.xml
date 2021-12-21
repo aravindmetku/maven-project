@@ -3,9 +3,18 @@
     xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
     <servers>
         <server>
-            <id>github-dvag</id>
-            <username>username</username>
+            <id>${env.USERNAME}</id>
+	    <username>username</username>
             <password>password</password>
         </server>
-    </servers>
+</servers>
+
+<mirrors>
+	    <mirror>
+		          <id>hellodummy</id>
+				        <name>PlanetMirror Australia</name>
+						      <url>http://downloads.planetmirror.com/pub/maven2</url>
+							            <mirrorOf>central</mirrorOf>
+									        </mirror>
+											  </mirrors>
 </settings>

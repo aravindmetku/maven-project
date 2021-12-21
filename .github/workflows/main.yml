@@ -11,7 +11,7 @@ env:
   STAGE: test
   VERSION: 2.2.0
   ALLOW_FAILURE: false
-  USERNAME: hellodummy
+  USERNAME: hellodummyenv
 
 jobs:
   leanix_test_job:

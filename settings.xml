@@ -11,7 +11,7 @@
 
 <mirrors>
 	    <mirror>
-		          <id>hellodummy</id>
+		          <id>${env.USERNAME}</id>
 				        <name>PlanetMirror Australia</name>
 						      <url>http://downloads.planetmirror.com/pub/maven2</url>
 							            <mirrorOf>central</mirrorOf>

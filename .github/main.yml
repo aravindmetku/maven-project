@@ -1,7 +1,6 @@
 name: leanix-action-test
 
 on:
-  push:
   workflow_dispatch:
 
   
